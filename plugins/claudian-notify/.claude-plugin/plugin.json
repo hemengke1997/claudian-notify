@@ -1,0 +1,11 @@
+{
+  "name": "claudian-notify",
+  "description": "macOS notifications for Claude in Obsidian (Claudian): conversation title, reply preview, Obsidian icon, click to return",
+  "version": "0.1.0",
+  "author": {
+    "name": "阿梦freedom",
+    "url": "https://ameng.dev"
+  },
+  "license": "MIT",
+  "keywords": ["obsidian", "claudian", "notifications", "macos"]
+}

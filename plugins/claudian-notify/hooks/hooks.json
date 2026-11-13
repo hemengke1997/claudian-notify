@@ -1,0 +1,27 @@
+{
+  "description": "Claudian 回复完或等你输入时发 macOS 通知",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/notify.sh\" stop",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/notify.sh\" notification",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}
